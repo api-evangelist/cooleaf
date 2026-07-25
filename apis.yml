@@ -1,19 +1,51 @@
 aid: cooleaf
 name: Cooleaf
-description: Cooleaf is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cooleaf is an employee engagement, recognition, and rewards platform built by
+  ITA Group that helps HR and people leaders create lasting engagement across
+  their organizations. The platform lets teams recognize peers, reward
+  performance and KPIs, celebrate milestones and anniversaries, run pulse
+  surveys and challenges, deliver training and programming, and surface
+  engagement analytics through manager dashboards. Cooleaf meets employees where
+  they already work by embedding recognition into Slack and Microsoft Teams and
+  syncing people data through connectors like Zapier and Workday. Cooleaf is
+  delivered as a closed SaaS product with a hosted web application and login;
+  it does not publish a public developer API, SDKs, or API reference, so this
+  API Evangelist profile captures its identity, domain-security posture, and
+  the integration surface it exposes to customers rather than a developer
+  program.
 url: https://raw.githubusercontent.com/api-evangelist/cooleaf/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60b6c64e1e75f27dc9711c26/68371334ff3a0d54526d43bb_og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-parent: ITA Group
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Employee Engagement
+- Employee Recognition
+- Rewards
+- Human Resources
+- Employee Experience
+- Surveys
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cooleaf.com
+  url: https://www.cooleaf.com
+- type: Login
+  url: https://login.cooleaf.com/login
+- type: Support
+  url: https://support.cooleaf.com
+- type: PrivacyPolicy
+  url: https://www.cooleaf.com/privacy-policy
+- type: TermsOfService
+  url: https://www.cooleaf.com/terms-of-use
+- type: DomainSecurity
+  url: security/cooleaf-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
